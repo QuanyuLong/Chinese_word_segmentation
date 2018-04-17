@@ -1,1 +1,3 @@
 *.py linguist-language=python
+*.p linguist-language=python
+*.pyc  linguist-language=python
