@@ -1,0 +1,80 @@
+User's Manual for Our Chinese Word Segmentation System
+Foreword:
+  This is a system used to give segmentation to Chinese texts.
+It supports files with txt format(Coded in utf-8 or gbk) and 
+texts entered manually. Generally there are 2 ways to operate
+the system¡ª¡ªone by buttons on the interface, one by choices
+on the menu. We will talk about these 2 ways later.
+¢ñ.The use of buttons on the interface
+1.The main UI
+¢ÙGive segmentation to a file
+  The click of this button leads to a subwindow to perform 
+segmentation. Both the input and the output are files, and
+you will be asked about their paths. 
+¢ÚGive segmentation to sentences
+  The click of this button also leads to a subwindow to 
+perform segmentation. There will be a textbox for you to 
+enter the text, and the result can be given in string format
+or stored in a file.
+¢ÛAdd new words to the lexicon
+  The click of this button leads to a subwindow that allows
+you to add new words to the lexicon.
+¢ÜAdd general service word
+  The click of this button leads to a subwindow that allows
+you to set general service words yourself.
+¢ÝCopyright information
+  The click of this button leads to a subwindow that shows
+copyright information about us.
+¢ÞExit
+  Click this button to exit the system.
+2.subUI of Give segmentation to a file
+  You can enter the path in the entry or use the button right
+to the entry to select a file path. Click OK to continue,
+click Return to go back to the main UI.
+3.subUI of Give segmentation to sentences
+  You can enter the text in the textbox given. Then click OK 
+and 2 more buttons will appear. You can choose one sentence in
+the text and then click Give segmentation to this sentence.
+After this you will see the result, meanwhile you can choose
+to add some new words to the lexicon according to our result.
+If you click Give segmentation to this sentence, you will be
+asked to choose a path to save the segmentation result of all
+the text entered.
+4.subUI of Add new words to the lexicon
+  You can enter the word you would like to add to the lexicon
+in the entry and click OK, then you will be asked to choose 
+frequency of the word.
+5.subUI of Add general service word
+  You can set general service words here by entering the word
+and click OK button.
+¢ò.The menu
+1.filemenu
+¢ÙOpen
+  If you click Open, you can choose the path of the file
+and the text in this file will be shown in the subUI of Give 
+segmentation to sentences. Then you can perform operations on
+it.
+¢ÚGet filepath
+  If you click Get filepath, you can choose the path of the 
+file and turn to the subUI of Give segmentation to a file to
+continue operations.
+2.Lexicon
+¢ÙAdd new word
+  If you click Add new word, a subUI for adding new words to
+the lexicon will show up.
+¢ÚAdd general service word
+  If you click Add general service word, a subUI for settting
+general service word will show up.
+3.Segmentation
+¢ÙSegmentation to a file
+  If you click Segmentation to a file, a subUI for giving 
+segmentation to a file will show up.
+¢ÚSegmentation to sentences
+  If you click Segmentation to sentences, a subUI for giving
+segmentation to texts will show up.
+4.Help
+¢ÙCopyright information
+  If you click Copyright information, a subUI of copyright 
+information will show up.
+¢ÚManual 
+  This choice leads to this manual.
